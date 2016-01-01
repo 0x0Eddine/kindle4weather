@@ -1,10 +1,14 @@
 #!/bin/sh
 
-FOLDER="/shit/weather"
+FOLDER="/path/to/display_weather.sh"
 FILE="weather.png"
-URL="http://192.168.1.140:8080/weather.png"
+URL="http://your_IP:8080/weather.png"
 
-wget $URL -O $FOLDER/$FILE
+wget $URL 
+
+#Clear screen
+
+eips -c
 
 if [ -e $FOLDER/$FILE ];then
     eips -f -g $FOLDER/$FILE
