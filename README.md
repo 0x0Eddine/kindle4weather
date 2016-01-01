@@ -1,8 +1,7 @@
 #Kindle 4 Weather
-
 Credit goes to Matthew Petroff and Gri Ge 
-https://github.com/cathay4t/kindle-weather
-https://github.com/mpetroff/kindle-weather-display
+* https://github.com/cathay4t/kindle-weather
+* https://github.com/mpetroff/kindle-weather-display
 
 ###Usage example
  * Change `<PATH>` as the folder of source code.
@@ -15,6 +14,14 @@ https://github.com/mpetroff/kindle-weather-display
  * Check whether you can get the weather png via:
     `http://<your_server_hostname>/weather/weather.png`
 
+###Kindle configuration
+
+* Move display-weather.sh to your Kindle
+* Run : ./display-weather.sh 
+* If everything was setup correctly you should see something like this on your Kindle
+
+###Notes
+* I used node.js to setup a server
 
 
 
