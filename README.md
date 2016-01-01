@@ -35,6 +35,6 @@ Credit goes to Matthew Petroff and Gri Ge
 * The `weather_script.py` file is based on the work of Matthew Petroff 2012, MIT
   license.
 * The `weather-script-preprocess.svg` and its embedded icon are under
-  http://creativecommons.org/publicdomain/zero/1.0/ license by Matthew Petroff also. I(Gris Ge)
+  http://creativecommons.org/publicdomain/zero/1.0/ license by Matthew Petroff also. Gris Ge
   did small change to fit the http://www.wunderground.com/weather/api/d/login.html API.
 
